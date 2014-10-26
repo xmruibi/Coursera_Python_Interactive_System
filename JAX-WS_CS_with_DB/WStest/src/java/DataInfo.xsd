@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xsd:complexType name="UserInfo">
+        <xsd:sequence>
+            <xsd:element name="username" type="xsd:string"></xsd:element>
+            <xsd:element name="password" type="xsd:string"></xsd:element>
+            <xsd:element name="fname" type="xsd:string"></xsd:element>
+            <xsd:element name="lname" type="xsd:string"></xsd:element>
+            <xsd:element name="email" type="xsd:string"></xsd:element>
+            <xsd:element name="email" type="xsd:string"></xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+</xs:schema>
